@@ -1,0 +1,79 @@
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #ffd700 29%,
+    #ff1361 67%,
+    #00FFFF 100%);
+  background-size: 25%;
+  background-clip: border-box;
+  background-size: 79%;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+      margin-left: 20px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+nav{
+    background-color:rgb(24, 23, 23);
+    
+;
+    
+}
+body{
+    background-color: black;
+}
+.welcome{
+    color:white;
+    font-family:sans-serif;
+    margin: 120px;
+    font-size: 50px;
+}
+h3{
+    color: rgb(19, 192, 28);
+    font-size: 30px;
+    font-family:monospace;
+    margin-left: 30px;
+}
+p{
+    color: aliceblue;
+    font-size: 19px;
+    font-family:sans-serif;
+    margin-left: 30px;
+}
+a{
+  text-decoration: none;
+  margin-left:90px;
+  color: aliceblue;
+  
+  
+}
+.nav2{
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  
+}
+.contact{
+  color: aliceblue;
+  font-size: 19px;
+  
+}
+
+
+
+
+
+
